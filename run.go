@@ -78,4 +78,22 @@ func main() {
 
 	fmt.Println(e)
 	fmt.Println(eString)
+
+	// type declaration
+	//digunakan untuk membuat ALIAS atau nama lain dari tipe data yg sudah ada
+	type NoKTP string
+
+	var ktpEko NoKTP = "111111111111111"
+
+	fmt.Println(ktpEko)
+	fmt.Println(NoKTP("222222222222222222222"))
+
+	type datetime string
+
+	var tanggal string = "12102002"
+
+	var tanggal_dttime datetime = datetime(tanggal)
+
+	fmt.Println(tanggal_dttime)
+
 }
