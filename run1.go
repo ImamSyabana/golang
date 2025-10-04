@@ -96,4 +96,43 @@ func main() {
 
 	fmt.Println(tanggal_dttime)
 
+	// OPERASI MATEMATIKA
+	var a = 10
+	var b = 20
+	var c = a + b
+
+	fmt.Println(c)
+
+	//augmented assignment
+	var i = 10
+	i = i + 10
+	fmt.Println(i)
+	i = i + 5
+	fmt.Println(i)
+
+	//unary operator
+	var x = 1
+	x++
+	fmt.Println(x)
+	x--
+	fmt.Println(x)
+
+	// operasi perbandingan
+
+	var name1banding = "Pikachuu"
+	var name2banding = "Pikachuu"
+
+	var result bool = name1banding == name2banding
+	fmt.Println(result)
+
+	// operasi boolean
+	var booleanGate bool = true && true
+	var booleanGate2 bool = true || false
+	var booleanGate3 bool = !true
+
+	fmt.Println(booleanGate)
+	fmt.Println(booleanGate2)
+	fmt.Println(booleanGate3)
+
+	// reboisasi
 }
